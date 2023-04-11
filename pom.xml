@@ -174,13 +174,7 @@
                 <configuration>
                     <repository>opusservices/usuario</repository>
                     <tag>${project.version}</tag>
-                    <docker>
-                        <publishRegistry>
-                            <username>opusservices</username>
-                            <token>dckr_pat_BuIL2JIZKIKEiDds827uuC5xxmI</token>
-                            <url>https://ghcr.io</url>
-                        </publishRegistry>
-                    </docker>
+                    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
                 </configuration>
             </plugin>
         </plugins>
