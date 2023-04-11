@@ -1,0 +1,4 @@
+db-config:
+  url: jdbc:postgresql://opus-db.crjgphmz7h35.us-east-2.rds.amazonaws.com/opus_usuario_db
+  username: postgres
+  password: opus!Connect
