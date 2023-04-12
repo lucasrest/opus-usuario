@@ -10,7 +10,7 @@
     </parent>
     <groupId>br.com.opus</groupId>
     <artifactId>usuario</artifactId>
-    <version>1.0.4</version>
+    <version>0.0.1</version>
     <name>auth</name>
     <description>Controle de acesso</description>
 
@@ -157,6 +157,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
            <!-- <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>dockerfile-maven-plugin</artifactId>
@@ -183,7 +184,8 @@
                 <version>0.9.7</version>
                 <configuration>
                     <to>
-                      <image>944497252674.dkr.ecr.us-east-2.amazonaws.com/${project.artifactId}:${project.version}</image>
+                      <image>usuario/${project.artifactId}:${project.version}</image>
+                      <image>944497252674.dkr.ecr.us-east-2.amazonaws.com/usuario/${project.artifactId}:${project.version</image>
                       <credHelper>ecr-login</credHelper>
                     </to>
                 </configuration>
