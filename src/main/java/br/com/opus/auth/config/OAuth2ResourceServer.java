@@ -63,6 +63,7 @@ public class OAuth2ResourceServer extends ResourceServerConfigurerAdapter {
                         ENDPOINT + "{email}/resetar"
                 ).permitAll()
                 .antMatchers(HttpMethod.POST, ENDPOINT + "/login").permitAll()
+                .antMatchers(HttpMethod.GET, ENDPOINT + "/teste").permitAll()
                 .antMatchers(HttpMethod.POST, ENDPOINT).permitAll()
                 .antMatchers(HttpMethod.PUT, ENDPOINT).permitAll()
                 .antMatchers("/swagger-ui.html", "/swagger-resources/**", "/webjars/**", "/v2/api-docs").permitAll()

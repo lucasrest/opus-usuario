@@ -120,4 +120,9 @@ public class UsuarioController {
         return ResponseEntity.ok(response);
     }
 
+    @GetMapping("/teste")
+    public ResponseEntity<String> get() {
+        return ResponseEntity.ok("teste");
+    }
+
 }
