@@ -125,4 +125,9 @@ public class UsuarioController {
         return ResponseEntity.ok("teste");
     }
 
+    @GetMapping("/teste2")
+    public ResponseEntity<String> get2() {
+        return ResponseEntity.ok("teste");
+    }
+
 }
